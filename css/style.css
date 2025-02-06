@@ -1,0 +1,359 @@
+/*all common css start*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+ul,li{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height:.8;
+}
+/*all common css end*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link{
+    padding: 0 30px!important;
+    font-size: 18px;
+    transition: .4s;
+    color: white;
+}
+.nav-link:hover{
+    color: #6A4DF4;
+}
+.contactBtn{
+    padding: 20px 40px;
+    color: white;
+    background: #6A4DF4;
+    border-radius: 10px;
+}
+/*banner part start*/
+#BannerPart{
+
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerOverly{
+    padding-top: 330px;
+    padding-bottom: 170px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.bannerText h1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Inter", serif;
+    line-height: 120%;
+    padding-bottom: 60px;
+}
+.bannerText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 234px;
+    margin-bottom: 45px;
+}
+.bannerText a{
+    padding: 20px 40px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*banner part end*/
+/*counter part start*/
+#counter{
+    padding-top: 150px;
+    padding-bottom: 150px ;
+}
+.extraCount{
+    padding: 90px 0;
+    border-radius: 20px;
+    background: #E0FFF9;
+}
+.counterLeft{
+    padding-left: 45px;
+}
+.counterLeft  h4{
+   font-size: 25px;
+   font-weight: 500;
+   color: #6A4DF4;
+   padding-bottom: 20px;
+}
+.counterLeft h3 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 249px;
+    line-height: 120%;
+}
+.counterRight h3 {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 21px;
+}
+.counterRight p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #737373;
+}
+/*counter part end*/
+#servicePart{
+    padding-bottom: 160px;
+}
+.serviceHead h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.serviceHead p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    padding: 0px 345px;
+}
+.serviceItem{
+    padding: 45px 0;
+    transition: .4s;
+}
+.serviceItem:hover{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+.serviceItem h3{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.serviceItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+/*recent work start*/
+#recentWork{
+    padding-bottom: 120px;
+}
+.recentWorkHead h3{
+  font-size: 45px;
+  font-weight: 700;
+}
+.recentWorkHead p {
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+    color: #737373;
+}
+.recentExtra{
+    padding-top: 50px;
+}
+.recentItem{
+    padding-bottom: 35px;
+    background: whitesmoke;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.itemPic img{
+   width: 100%;
+}
+.recentItem h3{
+    padding-top: 32px;
+    padding-bottom: 12px;
+}
+.recentItem p{
+    color: #737373;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+/*recent work end*/
+#agenic{
+    padding-top: 150px;
+    padding-bottom: 110px;
+}
+.agenicHead h3{
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0px 184px;
+    margin-bottom: 40px;
+}
+.agenicHead p {
+    padding: 0px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.agenicHead{
+    padding-bottom: 130px;
+}
+.agenicItem h3{
+    padding-top: 20px;
+}
+.agenicItem p {
+    padding-top: 20px;
+    color: #737373;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-right: 82px;
+}
+.ptc{
+    padding-top: 90px;
+}
+/*clint part start*/
+#clint{
+    padding-bottom: 130px;
+}
+.clintHead{
+    padding-bottom: 120px;
+}
+.clintHead h3{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.clintHead p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373 ;
+}
+.clintItem{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: wheat;
+    border-radius: 20px;
+}
+.nottation{
+    padding-left: 45px;
+    padding-bottom: 22px;
+}
+.clintItem p{
+    padding-left: 45px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    font-weight: 400;
+}
+.profile{
+    display: flex;
+    padding-left: 45px;
+}
+.fivestar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    color: goldenrod;
+}
+.bio{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: black;
+}
+.bio h5{
+    line-height: 26px;
+}
+/*clint part end*/
+#contactPart{
+    margin-bottom: 125px;
+}
+.ctn{
+    margin-top: 150px;
+}
+.mybtn{
+    padding: 20px 39px;
+    background-color: #6A4DF4;
+    color: white;
+    border-radius: 30px;
+}
+.designPart{
+    margin-top: 80px;
+}
+.designPart h3{
+    padding-right: 100px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.designPart p{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+.contactBox{
+    padding: 30px 0;
+    background: #E0FFF9;
+}
+/*last part start*/
+#lastPart{
+    margin-top: 220px;
+}
+.lastText h3{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.lastText p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+}
+#lastPart h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #7B7B7B;
+}
+#lastPart h3{
+    padding-bottom: 25px;
+}
+.lastBottomText{
+    margin-top: 40px;
+    position: relative;
+}
+.lastBottomText h4{
+    font-size: 16px;
+    font-weight: 300;
+    color: #737373;
+}
+.lastBottomText::after {
+    position: absolute;
+    height: 2px;
+    width: 740px;
+    content: "";
+    background: #7B7B7B;
+    top: -10px;
+    left: 0;
+}
+#hello{
+    padding: 150px 0;
+    background: teal;
+}
